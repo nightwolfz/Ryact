@@ -1,0 +1,28 @@
+{
+  "name": "ryact",
+  "version": "0.1.0",
+  "description": "Allows you to write react components in a functional way.",
+  "main": "ryact.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nightwolfz/Ryact.git"
+  },
+  "keywords": [
+    "react",
+    "functional",
+    "component",
+    "testable",
+    "reactive",
+    "ryact",
+    "ryan"
+  ],
+  "author": "Ryan Megidov",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nightwolfz/Ryact/issues"
+  },
+  "homepage": "https://github.com/nightwolfz/Ryact#readme"
+}
