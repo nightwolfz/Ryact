@@ -1,0 +1,19 @@
+# APP
+node_modules/*
+public/bower/*
+*.log
+docs/
+lib/
+
+# IDE
+.idea
+
+# OSX 
+.DS_Store
+
+# SCSS
+public/css/*.css
+public/css/*.css.map
+
+.sass-cache/*
+.TemporaryItems/*

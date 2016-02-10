@@ -10,8 +10,8 @@ const React = require('react')
  */
 const isFunc = fn => typeof fn === 'function'
 const orObject = item => item || {}
-const orFunction(fn) => isFunc(fn) ? fn : () => {}
-const wrap(object) => isFunc(object) ? { render: object } : object
+const orFunction = (fn) => isFunc(fn) ? fn : () => {}
+const wrap = (object) => isFunc(object) ? { render: object } : object
 const compose = (...fns) => composeRight(...fns.reverse())
 
 
@@ -82,14 +82,6 @@ function createWithCompose(component){
     }))
 
 }
-
-/**
- * This method can be used to compose objects.
- * @method compose
- * @param {Function} fns
- * @return {Function}
- */
-export function compose
 
 /**
  * This is our default export. Use it to return a valid React Component.
