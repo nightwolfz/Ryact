@@ -1,6 +1,6 @@
 {
   "name": "ryact",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Allows you to write react components in a functional way.",
   "main": "ryact.js",
   "scripts": {
